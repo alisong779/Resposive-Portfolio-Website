@@ -14,4 +14,12 @@
     background: white;
     @include easeOut;
   }
+  &.close {
+    transform: rotate(180deg);
+    .btn-line {
+      &:nth-child(1) {
+        background: red;
+      }
+    }
+  }
 }
