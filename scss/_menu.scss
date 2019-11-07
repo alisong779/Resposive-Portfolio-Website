@@ -35,6 +35,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -68,7 +69,7 @@
 
   //Left side
   &-branding {
-    background: $primary-color;
+    background: darken($secondary-color, 5);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -79,9 +80,9 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url('../img/portrait1.jpg');
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      border: solid 4px $primary-color;
       background-position: 50%, 50%;
       background-repeat: no-repeat;
     }

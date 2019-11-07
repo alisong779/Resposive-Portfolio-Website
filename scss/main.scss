@@ -73,7 +73,7 @@ main {
   }
 }
 
-//Grid Template areas
+//Grid Template areas - About Page
 
 .about-info {
   display: grid;
@@ -112,7 +112,7 @@ main {
   }
 }
 
-//Projects
+//Projects Page
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -180,6 +180,7 @@ main {
   color: #333;
 }
 
+//Footer
 #main-footer {
   text-align: center;
   padding: 1rem;
